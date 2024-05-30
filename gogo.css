@@ -1,0 +1,124 @@
+body {
+    width: 1200px;
+    box-sizing: border-box;
+    margin: 20px
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 8fr 4fr ;
+    grid-template-rows: 2fr;
+    align-items: center;
+    align-content: center;
+}
+
+.grid-navigation {
+    align-items: center;
+    display: flex;
+    align-content: center;    
+}
+
+
+
+.grid-navigation img {
+    width: 119px;
+    height: 38px; 
+   
+}
+
+.search-bar img {
+    
+    width: 20px;
+    height: 20px;
+    display: flex;
+
+}
+
+
+.grid-navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    
+   
+}
+
+.grid-navigation a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    font-size: 16px;
+
+
+}
+
+/* start of widgets */
+
+.grid-widgets {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    justify-content: right;
+    gap: 30px;
+}
+
+
+.news-container {
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.news-container img {
+    width: 10px;
+    height: 10px;
+}
+
+.widget-container {
+    display: flex;
+    gap: 25px;
+}
+
+.cloud-number-container {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    text-align: center;
+}
+
+.cloud-number-container, .horoscope-icon-container img {
+    position: relative;
+    height: 18px;
+    width: 22px;
+}
+.exchange-icon-container img {
+    position: relative;
+    height: 18px;
+    width: 22px;
+}
+
+.grid-widgets span {
+    font-size: 18px;
+}
+
+
+.widgets-weather {
+    font-size: 12px;
+}
+.widgets-horoscope {
+    font-size: 12px;
+}
+.widgets-exchange-rate {
+    font-size: 12px;
+}
+
+
+
+/* end of widgets */
+
+
+
+
